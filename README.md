@@ -2,6 +2,10 @@
 
 Convert Array to ActiveRecord::Relation without database access
 
+## Support Version
+
+ActiveRecord v4.2 ~ v6.0.0.rc1
+
 ## Installation
 
 Add this line to your application's Gemfile:
