@@ -4,13 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "array_to_activerecord"
-  spec.version       = "1.0.1"
+  spec.version       = "1.0.0"
   spec.authors       = ["potato2003"]
   spec.email         = ["potato2003@gmail.com"]
 
   spec.summary       = "Convert Array to ActiveRecord::Relation without database access"
   spec.description   = "Convert Array to ActiveRecord::Relation without database access"
   spec.homepage      = "https://github.com/potato2003/array_to_activerecord"
+  spec.licenses    = ['MIT']
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
