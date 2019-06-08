@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "array_to_activerecord"
-  spec.version       = "1.0.0"
+  spec.version       = "1.0.2"
   spec.authors       = ["potato2003"]
   spec.email         = ["potato2003@gmail.com"]
 
