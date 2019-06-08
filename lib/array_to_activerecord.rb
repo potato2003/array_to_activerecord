@@ -1,6 +1,6 @@
 require "active_record"
 
-module ArrayToActiverecord
+module ArrayToActiveRecord
   def self.convert(array, model_class: nil)
     model_class = determine(array) if model_class.nil?
 
@@ -24,7 +24,7 @@ module ArrayToActiverecord
   end
 end
 
-module ArrayToActiverecord
+module ArrayToActiveRecord
   class Converter
     def initialize(model_class)
       @model_class = model_class

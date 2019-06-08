@@ -1,9 +1,9 @@
 require 'array_to_activerecord'
 
-RSpec.describe ArrayToActiverecord do
+RSpec.describe ArrayToActiveRecord do
 
   describe ".convert" do
-    subject { ArrayToActiverecord.convert(array, model_class: model_class) }
+    subject { ArrayToActiveRecord.convert(array, model_class: model_class) }
     let(:model_class) { nil }
 
     context "when give an array including ActiveRecord instances" do
