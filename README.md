@@ -34,6 +34,26 @@ array = [ Customer.find(1), Customer.find(2), Customer.find(3) ]
 records = ArrayToActiverecord.convert(array, model_class: Customer)
 ```
 
+## Testing
+
+```
+bundle exec rake
+```
+
+### Testing with multiple versions of ActiveRecord
+
+First, you need to install the dependencies for each appraisal
+
+```
+bundle exec appraisal install
+```
+
+Next, run tests across all ActiveRecord versions
+
+```
+bundle exec appraisal rake
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/potato2003/array_to_activerecord.
