@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/potato2003/array_to_activerecord.svg?branch=master)](https://travis-ci.org/potato2003/array_to_activerecord)
+
 # ArrayToActiverecord
 
 Convert Array to ActiveRecord::Relation without database access
