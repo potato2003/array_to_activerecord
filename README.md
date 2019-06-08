@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/potato2003/array_to_activerecord.svg?branch=master)](https://travis-ci.org/potato2003/array_to_activerecord)
+
 # ArrayToActiverecord
 
 Convert Array to ActiveRecord::Relation without database access
@@ -5,6 +7,16 @@ Convert Array to ActiveRecord::Relation without database access
 ## Support Version
 
 ActiveRecord v4.2 ~ v6.0.0.rc1
+
+Currently, Testing matrix of Ruby/ActiveRecord versions on Travis CI.
+
+| ActiveRecord \ Ruby | 2.3 | 2.4 | 2.5 | 2.6 |
+| ------------------- | --- | --- | --- | --- |
+| 4.2                 |  ✓  |  ✓  |  -  |  -  |
+| 5.0                 |  ✓  |  ✓  |  ✓  |  -  |
+| 5.1                 |  ✓  |  ✓  |  ✓  |  -  |
+| 5.2                 |  -  |  ✓  |  ✓  |  ✓  |
+| 6.0.rc1             |  -  |  -  |  ✓  |  ✓  |
 
 ## Installation
 
