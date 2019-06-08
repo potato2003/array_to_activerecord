@@ -43,7 +43,7 @@ array = [ Customer.find(1), Customer.find(2), Customer.find(3) ]
 # Customer Load (0.1ms)  SELECT  `customers`.* FROM `customers` WHERE `customers`.`id` = 3 LIMIT 1
 
 # Convert without database access
-records = ArrayToActiverecord.convert(array, model_class: Customer)
+records = ArrayToActiveRecord.convert(array, model_class: Customer)
 ```
 
 ## Testing
