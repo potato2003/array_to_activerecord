@@ -14,7 +14,7 @@ RSpec.describe ArrayToActiverecord do
 
       it { is_expected.to be_kind_of(ActiveRecord::Relation) }
       it("should match ids") { expect(subject.ids).to match(array.map(&:id)) }
-      it("has where clause") { expect(p subject.to_sql).to_not be_empty }
+      it("has where clause") { expect(subject.to_sql).to include("WHERE", "IN (#{subject.ids.join(", ")}") }
     end
 
     context "when give an array including non-ActiveRecord instances" do
