@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/potato2003/array_to_activerecord.svg?branch=master)](https://travis-ci.org/potato2003/array_to_activerecord)
 [![Gem Version](https://badge.fury.io/rb/array_to_activerecord.svg)](https://badge.fury.io/rb/array_to_activerecord)
 
-# ArrayToActiverecord
+# ArrayToActiveRecord
 
 Convert Array to ActiveRecord::Relation without database access
 
